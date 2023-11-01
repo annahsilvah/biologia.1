@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Chonps - Página Inicial</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3017/3017508.png" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="search-bar">
+      <a href="index.html" class="yellow-text">CHONPS</a> <!-- transformei o texto em um link de pagina inicial -->
+
+      
+    </div>
+    <div class="top-bar">
+      <ul>
+        <li><a href="núcleo.html">NÚCLEO</a></li>
+        <li><a href="cromossomos.html">CROMOSSOMOS</a></li>
+        <li><a href="dna.html">DNA / RNA</a></li>
+        <li><a href="células.html">CÉLULAS</a></li>
+        <li><a href="cancer.html">CÉLULAS CANCERIGENAS</a></li>
+        <li><a href="video.html">VIDEOAULAS</a></li>
+        <li><a href="saibamais.html">SAIBA MAIS </a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="carousel">
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="content/images/bg2.png" alt="Imagem 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="content/images/bg1.png" alt="Imagem 2">
+      </div>
+
+      <div class="carousel-slide">
+        <img src="content/images/bg3.png" alt="Imagem 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="content/images/bg4.png" alt="Imagem 2">
+      </div>
+
+      <!-- Adicione mais imagens conforme necessário -->
+    </div>
+    <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+    <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+  <div class="carousel-indicators">
+    <button class="indicator-button" data-slide-index="0" onclick="showSlide(0)">1</button>
+    <button class="indicator-button" data-slide-index="1" onclick="showSlide(1)">2</button>
+    <button class="indicator-button" data-slide-index="2" onclick="showSlide(2)">3</button>
+    <button class="indicator-button" data-slide-index="2" onclick="showSlide(2)">4</button>
+  </div>
+
+
+
+
+  <section class="materias-section">
+    <h2 class="section-title">Nosso Material</h2>
+
+    <!-- 1ª fileira de 3 botões -->
+    <div class="buttons-container">
+      <a class="materia-button" href="células.html">
+        <img src="content/images/celula.png" alt="Ícone 1" width="85" 
+   height="85">Células</a>
+
+      <a class="materia-button" href="cancer.html">
+        <img src="content/images/cancer.png" alt="Ícone 2" width="85" 
+   height="85">Células Cancerígenas</a>
+
+      <a class="materia-button" href="núcleo.html">
+        <img src="content/images/Núcleo.png" alt="Ícone 1" width="85" 
+   height="85">Núcleo</a>
+    </div>
+
+    <!-- 2ª fileira de 3 botões -->
+    <div class="buttons-container">
+      <a class="materia-button" href="cromossomos.html">
+        <img src="content/images/Cromosomos.png" alt="Ícone 1" width="85" height="85">Cromossomos</a>
+
+      <a class="materia-button" href="dna.html">
+        <img src="content/images/DNA.png" alt="Ícone 1" width="85" height="85">DNA</a>
+
+      <a class="materia-button" href="video.html">
+        <img src="content/images/videoaulas.png" alt="Ícone 1" width="85" height="85">Video Aulas</a>
+    </div>
+  </section>
+
+
+
+  <section class="white-section">
+    <div class="content">
+
+      
+
+    </div>
+  </section>
+
+  <section class="pink-section">
+    <div class="content">
+      
+          <p2>Iremos apresentar a morfologia e fisiologia do núcleo que é uma estrutura presente em todas as células 
+            eucariontes. E dos cromossomos que são compostos por proteínas e são responsáveis por manter a estrutura, e
+            controle das atividades dos genes no DNA.</p2> 
+      <br>
+          <p2>Além de relacionarmos o câncer com as falhas na divisão celular, a maioria dos cânceres surge quando
+            células adquirem uma série de alterações no DNA, fazendo com que se espalhem rapidamente saindo do controle
+            e evitando a morte celular.</p2>
+
+    </div>
+  </section>
+
+  <section class="green-section">
+    <ul class="list">
+      <li><a href="#">Núcleo</a></li> 
+      <li><a href="#">Cromossomos</a></li>
+      <li><a href="#">DNA</a></li>
+    </ul>
+    <ul class="list">
+      <li><a href="#">Células</a></li>
+      <li><a href="#">Células canserigenas</a></li>
+      <li><a href="#">Video aulas</a></li>
+    </ul>
+
+    <img src="content/images/cancer.png" height=120px, width=120px>
+  </section>
+
+  <footer>
+    &copy; 2023-CHONPS. Ana Luísa, Heloisa Valentin, Mariana Francisca e Teresa Brigida.
+  </footer>
+
+</body>
+
+<script src="script.js"></script>
+</html>
